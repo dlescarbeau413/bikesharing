@@ -8,26 +8,31 @@ In this module, we analyzed citibike data from August of 2019 to see if a simila
 Analysis:
 
 Checkout times for users:
+
 ![](Resources/Trip_Duration.PNG)
 
 In this visualization we compared the number of users with and their checkout times. Looking at the data, we see that a majority of the bikes are checked out for no longer than 45 mins. The count for the number of trips dips below 10,000 checkouts for the month starting at the 38 min mark. Once we hit the 45 min mark, we see the amount of user count drop to below 4,000. After the 1 hr mark, we see the number of trips dip down below 1000. The conclusion that I draw from this is that people in the city are mostly using the bike for transportation from one location in the city to another to simply get around faster. There are far less bike checkouts being used to simply leisure activities.
 
 Checkout times by gender:
+
 ![](Resources/Checkout_times_by_gender.PNG)
 
 When looking at this graph we were able to breakdown the checkout times by gender. When looking at this graph we can see the majority of the trips for males greatly exceed the number of trips taking by females. At the peak for the men, the count of checkouts is 108,000 at 5 min mark. The peak for women is at the 6 min mark with a total number just over 34,000. This makes sense because over half the data that is collected is from male users. 
 
 Trips by weekday per hour:
+
 ![](Resources/Trips_weekday_hour.PNG)
 
 For the month of august we broke down the trips to see the most popular start times by weekday. As shown in the heatmap, we can see the most popular or the most start times occurred after 6pm on Thursdays. The second most popular start time in our data was 5pm on Thursdays with 1,000 less trips than the 6pm start time. 
 
 Trips by Gender( Weekday per hour):
+
 ![](Resources/Trips_weekday_hour_gender.PNG)
 
 This is the same heatmap that we created for trips by weekday per hour but with an extra filter. We broke down the trips by weekday per hour and separated it by gender. As seen in the heatmaps, we can see that most of the trips recorded in the citibike data csv were by males. A good indication of this is the shading. We can see that the popular day and time(Thursday 5pm and 6pm) is shaded the darkest for the male users. Even though we separated the heatmaps by gender, the popular times and day doesn’t change.  Thursday at 5pm and 6pm for the month of august is still the darker parts of the heatmap for both the males and the females. 
 
 User Trips by gender by weekday:
+
 ![](Resources/User_type.PNG)
 
 This heatmap directly relates to the past two heatmaps but with a different filter. As we saw in the past two heatmaps, we saw that Thursday was the more popular day for bike trips. This heatmap builds off of the last one where the users are filtered into two types. The heatmap is filtered by customer and subscriber as well as gender. As we can see from this heatmap we see that the most popular day is Thursday. Demographic that is using the bikes the most are male in the subscriber user type. The count for this category exceeds 250,000. If we were to look at the customer user category, we see that the most popular day in this dataset is Saturday with around 40,000 users in the customer category. When we break down the heat map into the two types of users, we can see the most popular day for subscribers is Thursday and the most popular day for customers is Saturday. 
@@ -36,6 +41,7 @@ Module graphs:
 For my module graphs I chose to include the gender count pie chart, the starting locations and the stop locations. 
 
 Gender pie chart:
+
 ![](Resources/Gender_total.PNG)
 
 The gender pie chart was used because it is important to show how the data will be viewed in context when the gender counts are shown. Its important to show the data and have the gender counts in mind to help further explain the data. As we went through the challenge we broke down every graph by gender anyways, but it was important to show the count of the genders against one another. 
@@ -43,6 +49,7 @@ The gender pie chart was used because it is important to show how the data will 
 Top start and stop locations:
 
 Start locations:![](Resources/start_location.PNG) 
+
 Stop Locations:![](Resources/End_locations.PNG)
 
 For my other maps or graphs I used from the module, I used the start and stop latitude and longitudes map. Instead of keeping the original light map that we used in the module, I changed the map to the streets map. I wanted to see where the actual locations in the citibike kiosks where in relation to important landmarks or mass transit stations. I wanted to see if the top locations where around landmarks where tourists would go to visit, parks people would go or if the people would use the bikes to transport themselves to mass transit locations. I wanted to get a sense if people would use the bikes as a mode of transportation in their daily commute to work. 
